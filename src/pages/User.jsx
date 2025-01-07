@@ -1,8 +1,7 @@
+import WorkInProgress from "../components/common/WorkInProgress";
 
 const User = () => {
-  return (
-    <div>User</div>
-  )
-}
+  return <WorkInProgress section="User page" />;
+};
 
 export default User;

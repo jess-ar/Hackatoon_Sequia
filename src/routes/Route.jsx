@@ -5,6 +5,8 @@ import ContactForm from "../pages/ContactForm";
 import Mapa from "../pages/MapView";
 import Team from "../pages/Team";
 import Tips from "../pages/Tips";
+import Zonas from "../pages/Zonas";
+import User from "../pages/User";
 
 export const router = createBrowserRouter([
   {
@@ -16,6 +18,8 @@ export const router = createBrowserRouter([
       { path: "/contact", element: <ContactForm /> },
       { path: "/mapa", element: <Mapa /> },
       { path: "/tips", element: <Tips /> },
+      { path: "/zonas", element: <Zonas /> },
+      { path: "/user", element: <User /> },
     ],
   },
 ]);

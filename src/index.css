@@ -3,8 +3,8 @@
 @import 'tailwindcss/utilities';
 
 :root {
-    --col-body: rgb(33, 90, 109);
-    --col-navbar: rgb(60, 162, 162);
+    --col-body: rgb(24, 63, 76);
+    --col-navbar: rgb(44, 123, 123);
     --col-footer: rgb(78, 119, 119);
     --col-button: rgb(19, 110, 110);
     --col-text: rgb(255, 255, 255);
