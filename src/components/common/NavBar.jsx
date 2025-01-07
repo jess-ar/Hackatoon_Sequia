@@ -1,18 +1,16 @@
 import { useState } from "react";
 import { HiBars3 } from "react-icons/hi2";
 import Menu from "../Menu";
+import logo from "../../assets/images/faviconico.png";
+
 
 const NavBar = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <header className="flex items-center justify-between w-full h-20 px-4 bg-navbar">
+    <header className="flex items-center justify-between w-full h-20 px-8 bg-navbar">
       <div className="flex items-center">
-        <img
-          src="../../../images/faviconico.png"
-          alt="Logo"
-          className="w-12 mr-4"
-        />
+      <img src={logo} alt="Logo" className="w-12 mr-4" />
         <h1 className="font-serif text-2xl text-logo-text">SEQUIATRON</h1>
       </div>
       <div className="lg:hidden" onClick={() => setMenu(!menu)}>

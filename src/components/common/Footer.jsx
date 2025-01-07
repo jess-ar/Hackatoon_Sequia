@@ -6,11 +6,11 @@ const Footer = () => {
     return (
         <footer className="flex-none w-full px-2 py-4 mt-auto bg-footer text-text md:px-8">
             <div className="container flex flex-col items-center justify-between mx-auto md:flex-row">
-                <p className="text-sm">
+                <p className="text-xl">
                 <Link to="/contact" className="hover:underline">Contáctanos</Link> | <Link to="/team" className="hover:underline">Equipo</Link>
                 </p>
                 <div className="mb-4 text-center md:text-left md:mb-0">
-                    <p className="m-2 text-sm">sequiatron.com © 2024 sequiatron.</p>
+                    <p className="m-2 text-base">sequiatron.com © 2024 sequiatron.</p>
                 </div>
                 <div className="flex space-x-4">
                     <a href="https://www.instagram.com" aria-label="Instagram" className="text-2xl text-text">
